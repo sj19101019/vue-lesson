@@ -84,6 +84,8 @@
     -webkit-transform: translate(2px, 2px); /* Safari */
     transform: translate(2px, 2px);
     background-color: #006080;
+    box-shadow: -2px -2px rgba(20%,20%,40%,0.5);
+    transition: box-shadow 0.3s;
   }
  
 </style>
