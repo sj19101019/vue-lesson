@@ -10,6 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "node-sass": "^4.8.3",
     "sass": "^1.2.1",
     "sass-loader": "^7.0.1",
