@@ -22,7 +22,7 @@
 </template>
 
 <script>
-  import { askForNotificationPermission } from './serviceWorker'
+  import { askForNotificationPermission } from '../serviceWorker'
   export default {
     methods: {
       subscribe() {
@@ -58,7 +58,7 @@
     font-size: medium;
     border-radius: 8px;
     cursor: pointer;
-    display: inline-block; 
+    display: inline-block;
     box-shadow: 4px 4px rgba(20%,20%,40%,0.5);
   }
 
@@ -85,5 +85,5 @@
     transform: translate(2px, 2px);
     background-color: #006080;
   }
- 
+
 </style>
